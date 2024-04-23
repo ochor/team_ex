@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+/* 상단 타이틀 */
+.mapo-dpp {
+	font-family: 'MapoDPP'; 
+	font-weight: bold;
+}
+.transparent {
+  	opacity: 0!important;
+}
+
+img {
+	
+	image-rendering: -moz-crisp-edges; /* Firefox */
+	image-rendering: -o-crisp-edges; /* Opera */ 
+	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */ 
+	image-rendering: crisp-edges; 
+	-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+ 
+
+.carousel-caption-mapo {
+  position: absolute;
+  right: 15%;
+  bottom: 25%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 20px;
+/*   color: #fff;
+  text-align: center; */
+}	
+
+.carousel-caption-mapo2 {
+  position: absolute;
+  right: 15%;
+  bottom: 17%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}	
+
+
+.carousel-caption-mapo3 {
+  position: absolute;
+  right: 15%;
+  bottom: 20%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}		
+	
+	
+/* 메인화면 영상 위 텍스트	 */
+.flower_title {	
+	font-family: MapoFlowerIsland;
+	color:#592F43;
+}	
+
+.goldenPier_title {	
+	font-family: MapoGoldenPier;
+	color:#502B00;
+}	
+
+.dpp_title {	
+	font-family: MapoDPP;
+	color:#FFFFFF;
+}
+
+.dacapo_title {	
+	font-family: MapoDacapo;
+	color:#FFFFFF;
+}
+
+.maponaru_title {	
+	font-family: MapoMaponaru;
+	color:#415931;
+}
+
+.backpacking_title {	
+	font-family: MapoBackpacking;
+	color:#282E27;
+}
+
+.agape_title {	
+	font-family: MapoAgape;
+	color:#F9EBFF;
+}
+
+.peacefull_title {	
+	font-family: MapoPeacefull;
+	color:#FFFFFF;
+}
+
+.freedom_title {	
+	font-family: MapoHongdaeFreedom;
+	color:#FFFFFF;
+}
+
+.card_height2 {
+	height:270px;
+}
+
+.card_bottom2 {
+	margin_bottom:20px;
+}
+	
+#img01, #img02, #img03, #img04, #img05, #img06, #img07, #img08, #img09 {
+	/*height: 70vh;*/
+	 height: 95vh; 
+}
+  	
+	
+#m_blank {
+	height:3vh;
+}
+  	
+/* 태블릿 버전  */ 			
+@media screen and (max-width: 1025px) {
+	
+  	#img01, #img02, #img03, #img04, #img05, #img06, #img07, #img08, #img09 {
+ 		height: 42vh;
+ 	}
+ 	
+ 	#main_web, #main_mobile, #web_BigImg, #web_card  {
+  		display:none;		
+  	}	
+
+	#main_pad {
+		display:block;		
+	}
+	
+	#web_golden, #web_flower, #web_dacapo, #web_dpp, #web_maponaru  {
+		display:block;	
+	}
+	
+	#writer-photo {
+		width:100%;
+	}
+	
+	#video_content {
+		width:75%;
+	}
+	
+	#boxFont3 {
+		width:90%;
+	}
+ } 
+	
+	
+/* 모바일 버전	 */ 		
+@media screen and (max-width: 767px) {
+	
+	/* Main mp4 */
+  	#img01, #img02, #img03, #img04, #img05, #img06, #img07, #img08, #img09 {
+  		height: 32vh;
+  	}
+
+  	#bigImg, #boxPhoto {
+  		width: 100%;
+  		height: auto;
+  	}	
+  	
+  	#boxFont1, #boxFont2  {
+  	 	width: 100%;
+  		
+  	}
+  	
+  	#boxFont3 {
+  		width: 100%;
+  	}
+  
+
+  	#web_BigImg, #main_web, #main_pad {
+  		display:none;		
+  	}
+  	
+	
+	#web_card {
+		display:none;	
+	}
+  	
+  	#main_mobile {
+  		display:block;
+  	}
+  	
+  	#m_text1 {
+  		font-size:0.9rem;
+  		text-align:center;
+  		margin-left:0%;
+  	}
+  	
+  	#m_text2 {
+  		font-size:0.9rem;
+  		
+  	}
+  	
+  	#m_text3 {
+  		font-size:0.8rem;
+  	}
+  	
+  	#web_Jagan {
+  		display:block;
+  	}
+
+	.title_h6 {
+		margin-bottom:10%;
+	}
+
+	.text-gray2 {
+		font-size:5px;
+	}
+	
+	#goMenu1, #goMenu2 {
+		font-size:0.8rem;
+		
+	} 
+	
+	#video_content, #boxFont3 {
+		width:100%;
+		
+	}
+	
+	#m_blank {
+		height:0vh;
+	}
+} 
+
+  	
+  	
+  	
+/* 웹 버전  */ 			
+@media screen and (min-width: 1026px) {
+  
+  	#m_text1, #m_text2 { 
+  		margin-left:4%;
+  	}
+  	
+	#main_mobile, #preview_mobile {
+  		display:none;		
+  	}
+  	
+  	#main_pad {
+  		display:none;
+  	}
+  	
+  	#video_content {
+		width:75%;
+		margin-bottom:10%;
+	}
+
+}   	
+  	
+
+.preBox {
+	width:760px;
+	height:576px;
+}
+
+.contentSize {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.imgSize {
+	width: 30%;
+	/*  height: 30.3vh; */  
+	 height: 30%; 
+	margin-left: 3%;
+}
+
+.cardBoxSize2 {
+/* 	width: 100vw; */
+	 height: 30vh !important; 
+	/* margin-left: 3%; */
+}
+
+
+.brightness {
+	 -webkit-filter: brightness(0.30);
+	 filter: brightness(0.60);
+}
+
+.text-gray1 {
+	color:#282E27;
+	line-height:160%;
+}
+
+.text-gray2 {
+	font-size:0.75rem;
+	color:#5E5E5E;
+	margin-top:1.2%;
+	line-height:160%;
+}
+
+
+.text-title {
+	font-size:1.8rem; 
+	/* font-size:2vw; */
+	line-height:160%;
+}
+
+.text-color-blue {
+	 color:#111A62; 
+}
+
+.text-color-gray {
+	 color:#353B34; 
+	 line-height:160%;
+}
+
+.text-desc1 {
+	color:#282E27;
+	line-height:160%;
+}
+
+.text-desc2 {
+	color:red;
+	
+}
+
+.caption-color {
+	color:#EF769A;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.photo-caption {
+	color:#7F7F7F;
+	font-size:13px;
+	/* margin-left:27%; */
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 600px;
+}
+
+
+.line160 {
+	line-height:160%;
+}
+
+
+
+.text {
+	/* position:absolute;
+	top:10px;
+	left:10px;
+	color:#FFF; */
+	
+	 position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:5rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+.btn-white {
+	background-color:#FFFFFF;
+	border: 1px;
+	box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 60px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.0rem;
+	line-height: 2.5rem;
+	color: #222222;
+}
+
+.btn-video {
+	background-color:#FFFFFF;
+	border: 1px;
+	box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.0rem;
+	line-height: 2.5rem;
+	color: #9B7474;
+}
+
+/* 영상 텍스트 Web 버전 */
+.main_title1 {
+	font-size:6rem;
+	line-height:160%;
+}
+
+.main_title2 {
+	font-size:2.5rem;
+	line-height:160%;
+}
+
+.main_title3 {
+	font-size:1.2rem;
+	line-height:160%;
+}
+
+
+/* 영상 텍스트 모바일 버전 */
+.mobile_title1 {
+	font-size:1.8rem;
+	vertical-align: bottom;
+	line-height:90%;
+}
+
+.mobile_title2 {
+	font-size:0.8rem;
+	vertical-align: bottom;
+	line-height:80%;
+}
+
+.mobile_title3 {
+	font-size:10px;
+	vertical-align: bottom;
+}
+
+/* PAD 버전 */
+.mobile_title4 {
+	font-size:2.8rem;
+	line-height:160%;
+	
+}
+
+.mobile_title5 {
+	font-size:1.8rem;
+	line-height:160%;
+}
+
+.mobile_title6 {
+	font-size:18px;
+	line-height:160%;
+}
+
+
+
+/*
+flip card
+*/
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+

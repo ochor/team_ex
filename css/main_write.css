@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+#link_test2:hover  {
+	text-decoration: underline;
+}
+   
+#card1, #card2, #card3 {
+   	margin-top:0px;
+}
+   
+textarea {
+ 	font-size: 3rem;
+} 
+
+#writer-text {
+	font-size:2.4rem;
+}
+
+/* 웹 버전  */ 			
+@media screen and (min-width: 1026px) {
+	#web_version {
+		display:block;
+	}
+	
+	#mobile_version {
+		display:none;
+	}
+}
+
+/* 모바일 버전  */
+@media screen and (max-width: 768px) {
+  	  #card1, #card2, #card3, #card4, #card5 { 			
+  		margin-top:20px;
+  	}	
+
+	#writer-text {
+		font-size:1.4rem
+	}
+	
+	#web_version {
+		display:none;
+	}
+
+ }
+ 
+
+/* 태블릿 버전  */ 			
+@media screen and (max-width: 1025px) {
+
+	#card1, #card2, #card3, #card4, #card5 { 			
+  		margin-top:20px;
+  	}
+  	
+  	#writer-text {
+		font-size:1.5rem
+	}
+  	
+  	#web_version {
+		display:none;
+	}
+  		
+}
+ 
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-license {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: rgb(39, 177, 255);
+    border-width: 1px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+.btn-download {
+    border: 1px solid #27B1FF;
+    background-color: #27B1FF;
+    box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 1.0rem;
+    line-height: 2.5rem;
+}
+
+.writer-title {
+	background-color: #ffffff;
+}
+

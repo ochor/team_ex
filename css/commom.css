@@ -1,0 +1,58 @@
+@charset "UTF-8";
+      
+/* Mapo 금빛나루 */
+ .goldenPier {
+     font-family: 'MapoGoldenPier';           
+ }
+ /* Mapo 꽃섬 */
+  .flowerIsland {
+     font-family: 'MapoFlowerIsland';
+ }
+ /* Mapo 다카포 */
+  .dacapo {
+     font-family: 'MapoDacapo'; 
+ }
+ /* Mapo 당인리발전소 */
+  .dpp {
+     font-family: 'MapoDPP';
+ }
+ /* Mapo 마포나루 */
+  .maponaru {
+     font-family: 'MapoMaponaru';
+ }
+ /* Mapo 배낭여행 */
+  .backpacking {
+     font-family: 'MapoBackpacking';
+ }
+ /* Mapo 애민 */
+  .agape {
+     font-family: 'MapoAgape';
+ }
+ /* Mapo 한아름 */
+   .peacefull {
+     font-family: 'MapoPeacefull';
+ }
+ /* Mapo 홍대프리덤 */
+  .freedom {
+     font-family: 'MapoHongdaeFreedom';
+ }   
+ 
+body {
+    font-family: Roboto;
+    overflow-y:scroll;
+}
+ 
+ #goMenu1, #goMenu2 {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+/* 모바일 버전	 */ 		
+@media screen and (max-width: 767px) {
+	
+	#goMenu1, #goMenu2 {
+		font-size:0.8rem;	
+	} 
+} 
+
+ 
